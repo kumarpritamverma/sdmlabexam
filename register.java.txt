@@ -1,0 +1,15 @@
+public class Password_DiljotJ_R1 {
+
+    public static void main(String[] args) {
+
+        int attempt = 0;
+        String username = "john";
+        String password = "123";
+        String usernameEntered;
+        String passwordEntered;
+
+        do {
+            usernameEntered = (JOptionPane.showInputDialog("Please enter the username"));
+            passwordEntered = (JOptionPane.showInputDialog("Please enter the password"));
+            attempt++;
+        } while (usernameEntered != username);
